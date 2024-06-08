@@ -1,19 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    const menuButton = document.getElementById('menuButton');
-    const closeButton = document.getElementById('closeButton');
-    const sidebar = document.getElementById('sidebar');
     const sections = document.querySelectorAll('.section');
-
-    menuButton.addEventListener('click', function() {
-        sidebar.classList.toggle('visible');
-        menuButton.classList.toggle('hidden');
-    });
-
-    closeButton.addEventListener('click', function() {
-        sidebar.classList.toggle('visible');
-        menuButton.classList.toggle('hidden');
-    });
 
     window.addEventListener('scroll', function() {
         const scrollPosition = window.scrollY || window.pageYOffset;
