@@ -5,7 +5,7 @@
 }
 
 div.section {
-  border : 0.5px solid green; 
+  border : 0.1px solid green; 
 }
 
 body {
@@ -98,12 +98,13 @@ body {
 
 .container {
     height: calc(100% - 150px);
+    width : 96%; 
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgba(238, 238, 238, 0.8);
     border-radius: 20px;
-    margin: 75px 20px;
+    margin: 75px 2%;
 }
 
 #sidebar {
