@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     const sections = document.querySelectorAll('.section');
 
     window.addEventListener('scroll', function() {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     sections.forEach(section => {
-        section.addEventListener('wheel', function(event) {
+        section.addEventListener('wheel', (event) => {
             event.preventDefault();
             const delta = Math.sign(event.deltaY);
             const currentSectionIndex = [...sections].indexOf(section);

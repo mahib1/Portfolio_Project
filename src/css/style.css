@@ -5,7 +5,7 @@
 }
 
 div.section {
-  border : 0.1px solid green; 
+  border : 0.1px solid transparent; 
 }
 
 body {
