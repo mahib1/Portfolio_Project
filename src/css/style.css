@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color : white; 
 }
 
 div.section {
   border : 0.1px solid transparent; 
 }
+
 
 body {
     font-family: Arial, sans-serif;
@@ -76,16 +78,20 @@ body {
     background-position: center;
     background-color: transparent;
     transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     height: calc(100% - 150px);
-    width : 96%; 
+    width : calc(100vw - 100px); 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color : #e8e8e8;
+    background-color : transparent;
+    -webkit-backdrop-filter: blur( 2px );
     border-radius: 20px;
+    border : 1px solid rgba(256, 256, 256 , 0.3); 
     margin: 75px 2%;
 }
 
