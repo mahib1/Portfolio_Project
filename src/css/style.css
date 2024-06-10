@@ -10,8 +10,9 @@ div.section {
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(180deg, rgba(92,158,173,1) 26%, rgba(50,98,115,1) 66%);
+    background: linear-gradient(135deg, #171a3b 30% , #162e61 85%) ;
 }
+
 
 .hdr {
     display: flex;
@@ -56,8 +57,8 @@ body {
 }
 
 .hdr .buttons .btn:hover {
-    background-color: #5EF5F5;
-    color: black;
+    background-color: #575757;
+    color: white;
 }
 
 .main {
@@ -73,27 +74,8 @@ body {
     position: relative;
     background-size: cover;
     background-position: center;
+    background-color: transparent;
     transition: all 0.5s ease-in-out;
-}
-
-#home {
-    background-image: url('img/home_bg.jpg');
-}
-
-#about_me {
-    background-image: url('img/about_bg.jpg');
-}
-
-#education {
-    background-image: url('img/education_bg.jpg');
-}
-
-#experience {
-    background-image: url('img/experience_bg.jpg');
-}
-
-#contact {
-    background-image: url('img/contact_bg.jpg');
 }
 
 .container {
@@ -172,4 +154,6 @@ body {
     cursor: pointer;
     z-index: 30; /* Ensure the close button is above everything */
 }
+
+
 
