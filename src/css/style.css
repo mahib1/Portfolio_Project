@@ -84,7 +84,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(238, 238, 238, 0.8);
+    background-color : #e8e8e8;
     border-radius: 20px;
     margin: 75px 2%;
 }

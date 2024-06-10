@@ -8,6 +8,10 @@
   margin: 20px;
 }
 
+.home>* {
+  border-radius: 15px;
+}
+
 .home1 {
   grid-column: 1 / 5;
   grid-row: 1 / 3;
