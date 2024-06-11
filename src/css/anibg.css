@@ -25,7 +25,7 @@ body {
   --tail-fade-duration: var(--fall-duration);
   position: absolute;
   top: var(--top-offset);
-  left: 100px;
+  left: 0;
   width: var(--star-tail-length);
   height: var(--star-tail-height);
   color: var(--star-color);
